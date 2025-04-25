@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: baby bonita;
+    src: url('/BabyBonitaDEMO.woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,15 +15,10 @@ html, body {
     width: 100%;
 }
 
-@font-face {
-    font-family: baby bonita;
-    src: url('/BabyBonitaDEMO.ttf');
-}
-
 #bg {
     height: 100%;
     width: 100%;
-    background-image: url('./bg1.jpg');
+    background-image: url('./bg1.webp');
     background-size: cover;
     background-position: center;
     display: flex;
